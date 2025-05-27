@@ -31,7 +31,7 @@ public class CourseService(DataContext context) : ICouseService
             Description = course.Description,
             Price = course.Price
         };
-
+        
         await context.Courses.AddAsync(courses);
         var result = await context.SaveChangesAsync();
 
