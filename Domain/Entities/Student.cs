@@ -8,4 +8,5 @@ public class Student
     public string LastName { get; set; }
     public DateTime BirthDate { get; set; }
     public Status Status { get; set; }
+    public List<Group> Groups { get; set; }
 }

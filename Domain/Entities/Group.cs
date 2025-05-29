@@ -12,4 +12,5 @@ public class Group
     // navigations
     public Course Course { get; set; }
     public List<StudentGroup> StudentGroups { get; set; }
+    public List<Course> Courses { get; set; }
 }

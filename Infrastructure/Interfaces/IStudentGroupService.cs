@@ -3,7 +3,7 @@ using Domain.ApiResponse;
 using Domain.DTOs;
 namespace Infrastructure.Interfaces;
 
-public interface IStudentGroup
+public interface IStudentGroupService
 {
     public Task<Response<List<StudentGroupDTO>>> GetAllAsync();
     public Task<Response<string>> CreateAsync(StudentGroupDTO studentGroupDTO);
