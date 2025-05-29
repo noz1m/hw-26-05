@@ -10,7 +10,7 @@ public class Group
     public int CourseId { get; set; }
 
     // navigations
-    public Course Course { get; set; }
+    public Course Courses { get; set; }
     public List<StudentGroup> StudentGroups { get; set; }
-    public List<Course> Courses { get; set; }
+
 }

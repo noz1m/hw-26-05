@@ -40,23 +40,23 @@ public class GroupService(DataContext context) : IGroupService
         };
         return new Response<GroupDTO>(result, "Group found");
     }
-    public Task<List<GetGroupsWithCourseTitleDTO>> GetGroupsWithCourseTitleAsync()
+    public async Task<Response<List<GetGroupsWithCourseTitleDTO>>> GetGroupsWithCourseTitleAsync()
     {
-        var groups = context.Groups
+        var groups = await context.Groups
             .Include(g => g.Courses)
-            .Select(g => new GetGroupsWithCourseTitleDTO
+            .Select(g => new GetGroupsWithCourseTitleDTO()
             {
                 Id = g.Id,
                 Name = g.Name,
                 RequiredStudents = g.RequiredStudents,
                 StartedAt = g.StartedAt,
                 EndedAt = g.EndedAt,
-                CourseTitle = g.Courses.Title,
+                Title = g.Courses.Title,
                 Price = g.Courses.Price
-            }.ToList());
+            }).ToListAsync();
         return groups == null
-            ? new Response<string>("Group not found", HttpStatusCode.BadRequest)
-            : new Response<string>(null, "Group found successfully");
+            ? new Response<List<GetGroupsWithCourseTitleDTO>>("Group not found", HttpStatusCode.BadRequest)
+            : new Response<List<GetGroupsWithCourseTitleDTO>>(null, "Group found successfully");
     }
     public async Task<Response<string>> CreateAsync(GroupDTO group)
     {

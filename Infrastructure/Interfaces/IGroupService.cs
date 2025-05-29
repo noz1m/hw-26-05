@@ -8,7 +8,7 @@ public interface IGroupService
 {
     public Task<Response<List<GroupDTO>>> GetAllAsync();
     public Task<Response<GroupDTO>> GetByIdAsync(int id);
-    public Task<List<GetGroupsWithCourseTitleDTO>> GetGroupsWithCourseTitleAsync();
+    public Task<Response<List<GetGroupsWithCourseTitleDTO>>> GetGroupsWithCourseTitleAsync();
     public Task<Response<string>> CreateAsync(GroupDTO group);
     public Task<Response<string>> UpdateAsync(int id,GroupDTO group);
     public Task<Response<string>> DeleteAsync(int id);
