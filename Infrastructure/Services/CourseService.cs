@@ -2,6 +2,7 @@ using System.Net;
 using Domain.ApiResponse;
 using Domain.DTOs;
 using Domain.DTOs.CourseDTO;
+using Domain.DTOs.GroupDTO;
 using Domain.Entities;
 using Infrastructure.Data;
 using Infrastructure.Interfaces;
@@ -48,9 +49,15 @@ public class CourseService(DataContext context) : ICouseService
                 Title = c.Title,
                 Description = c.Description,
                 Price = c.Price,
-                CourseCount = c.Groups.Count
-            })
-            .ToListAsync();
+                Groups = c.Groups.Select(g => new Group
+                {
+                    Id = g.Id,
+                    Name = g.Name,
+                    RequiredStudents = g.RequiredStudents,
+                    StartedAt = g.StartedAt,
+                    EndedAt = g.EndedAt
+                }).ToList()
+            }).ToListAsync();
         if (courses == null || courses.Count == 0)
             return new Response<List<GetCoursesWithGroupCount>>("No courses found", HttpStatusCode.NotFound);
             return new Response<List<GetCoursesWithGroupCount>>(courses, "Courses retrieved successfully");

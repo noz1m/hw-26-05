@@ -1,0 +1,25 @@
+@page
+@model RazorApp.Pages.Student.CreateStudent
+
+<div class="container mt-4">
+    <h2>Create Student</h2>
+
+    <form method="post" class="w-50">
+        <div class="mb-3">
+            <label asp-for="StudentDTO.FirstName" class="form-label"></label>
+            <input asp-for="StudentDTO.FirstName" class="form-control form-control-sm" />
+            <span asp-validation-for="StudentDTO.FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="StudentDTO.LastName" class="form-label"></label>
+            <input asp-for="StudentDTO.LastName" class="form-control form-control-sm" />
+            <span asp-validation-for="StudentDTO.LastName" class="text-danger"></span>
+        </div>
+
+        <div class="d-flex gap-3 mt-3">
+            <button type="submit" class="btn btn-primary btn-sm">Create</button>
+            <a asp-page="/students/indexstudents" class="btn btn-danger btn-sm">Cancel</a>
+        </div>
+    </form>
+</div>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj",
+      "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj",
       "packagesPath": "/Users/nozimjonqozievgmail.com/.nuget/packages/",
-      "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/obj/",
+      "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nozimjonqozievgmail.com/.nuget/NuGet/NuGet.Config"

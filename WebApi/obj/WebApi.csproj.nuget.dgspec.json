@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/WebApi/WebApi.csproj": {}
+    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj": {
+    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj",
+        "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj",
         "packagesPath": "/Users/nozimjonqozievgmail.com/.nuget/packages/",
-        "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/obj/",
+        "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nozimjonqozievgmail.com/.nuget/NuGet/NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Infrastructure/Infrastructure.csproj": {
+    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/nozimjonqozievgmail.com/.nuget/packages/",
-        "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Infrastructure/obj/",
+        "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nozimjonqozievgmail.com/.nuget/NuGet/NuGet.Config"
@@ -85,8 +85,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj": {
-                "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj"
+              "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj": {
+                "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj"
               }
             }
           }
@@ -132,14 +132,14 @@
         }
       }
     },
-    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/WebApi/WebApi.csproj": {
+    "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/WebApi/WebApi.csproj",
+        "projectUniqueName": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/WebApi/WebApi.csproj",
+        "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/WebApi/WebApi.csproj",
         "packagesPath": "/Users/nozimjonqozievgmail.com/.nuget/packages/",
-        "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/WebApi/obj/",
+        "outputPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nozimjonqozievgmail.com/.nuget/NuGet/NuGet.Config"
@@ -154,11 +154,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj": {
-                "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Domain/Domain.csproj"
+              "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj": {
+                "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Domain/Domain.csproj"
               },
-              "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-24-05/Infrastructure/Infrastructure.csproj"
+              "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/nozimjonqozievgmail.com/Desktop/DotNet/EF Core/classtask/cw-17-06/Infrastructure/Infrastructure.csproj"
               }
             }
           }

@@ -28,7 +28,7 @@ public class StudentService(DataContext context) : IStudentService
     }
     public async Task<Response<StudentDTO>> GetByIdAsync(int id)
     {
-        var student = await context.Students.FirstOrDefaultAsync(x => x.Id == id);
+        var student = await context.Students.FirstAsync(x => x.Id == id);
         if (student == null)
             return new Response<StudentDTO>("Student not found", HttpStatusCode.NotFound);
         var result = new StudentDTO
